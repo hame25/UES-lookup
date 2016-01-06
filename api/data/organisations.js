@@ -1,13 +1,14 @@
 let response = {
     "count": 2,
-    "organisations": [
+    "organizations": [
       { 
         "organization_id":"1",  
         "school_data_id":"1075",
         "name":"Christ Church Church of England Primary School",
         "address": {
-              "line1": "45 Commerell Street",
-              "line2": "Greenwich",
+              "address1": "45 Commerell Street",
+              "address2": "Greenwich",
+              "address3": "",
               "town": "London se10",
               "county": "London",
               "area": "London",
@@ -27,8 +28,9 @@ let response = {
           "school_data_id":"1075",
           "name": "St Barnabas Primary School",
           "address": {
-              "line1": "Poplar Close",
-              "line2": "",
+              "address1": "Poplar Close",
+              "address2": "",
+              "address3": "",
               "town": "",
               "county": "",
               "area": "",
@@ -43,7 +45,12 @@ let response = {
              "background":"0,0,0",
           },
           children: [
-              { }, { }, { }	
+              { 
+                name: "House Hufflepuff"
+              }, 
+              { 
+                name: "House Gryffindor"
+              }
           ]
         },
         {
@@ -67,9 +74,8 @@ let response = {
              "background":"0,0,0",
          },
         children: [
-            { }, { }, { } 
         ]
-      } 	
+      }   
     ]
 };
 

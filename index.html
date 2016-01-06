@@ -12,9 +12,18 @@
 
 	<script type="text/template" id="lookup-list">
 		<ul class="results">
-			{{#organisations}}
-				<li>{{name}}<br/>{{address.line1}}, {{address.postcode}}</li>
-			{{/organisations}}
+			{{#organizations}}
+				<li>
+					{{name}}<br/>{{address.address1}}, {{address.postcode}}
+					{{#children.length}}
+						<ul>
+							{{#children}}
+								<li>{{name}}<br/>{{address.address1}}, {{address.postcode}}</li>
+							{{/children}}
+						</ul>
+					{{/children.length}}
+				</li>
+			{{/organizations}}
 		</ul>
 	</script>
 
