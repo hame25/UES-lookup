@@ -58,8 +58,8 @@ let response = {
           "school_data_id":"1075",
           "name": "Barton Junior School",
           "address": {
-              "line1": "Barton Road",
-              "line2": "",
+              "address1": "Barton Road",
+              "address2": "",
               "town": "",
               "county": "",
               "area": "",
