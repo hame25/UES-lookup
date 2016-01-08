@@ -46,10 +46,30 @@ let response = {
           },
           children: [
               { 
-                name: "House Hufflepuff"
+                "school_data_id":"1076",
+                "name": "House Hufflepuff",
+                "address": {
+                    "address1": "Poplar Close",
+                    "address2": "",
+                    "address3": "",
+                    "town": "",
+                    "county": "",
+                    "area": "",
+                    "postcode": "BS30 5NW"
+                }
               }, 
               { 
-                name: "House Gryffindor"
+                "school_data_id":"1077",
+                "name": "House Gryfindor",
+                "address": {
+                    "address1": "Poplar Close",
+                    "address2": "",
+                    "address3": "",
+                    "town": "",
+                    "county": "",
+                    "area": "",
+                    "postcode": "BS30 5NW"
+                }
               }
           ]
         },
